@@ -472,6 +472,7 @@ impl ErasedSegment {
             }
 
             let pos = self.get_position_marker().unwrap();
+
             let mut source_idx = pos.source_slice.start;
             let mut templated_idx = pos.templated_slice.start;
             let mut insert_buff = String::new();
